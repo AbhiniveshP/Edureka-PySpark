@@ -36,17 +36,17 @@ class Customer:
 
 
 
-# customer1 = Customer()
-# customer1.setTitle("Mr.")
-# customer1.setFname("Barack")
-# customer1.setLname("Obama")
-#
-# customer2 = Customer()
-# customer2.setTitle("Mrs.")
-# customer2.setFname("George")
-# customer2.setLname("Bush")
-#
-# print("First Customer Title %s" , customer1.getTitle())
-# print("Second Customer Title %s" , customer2.getTitle())
-# print("First Customer Title %s" , customer1.getTitle())
+customer1 = Customer()
+customer1.setTitle("Mr.")
+customer1.setFname("Barack")
+customer1.setLname("Obama")
+
+customer2 = Customer()
+customer2.setTitle("Mrs.")
+customer2.setFname("George")
+customer2.setLname("Bush")
+
+print("First Customer Title %s" , customer1)
+print("Second Customer Title %s" , customer2.getTitle())
+print("First Customer Title %s" , customer1.getTitle())
 
